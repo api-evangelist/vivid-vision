@@ -1,8 +1,28 @@
 aid: vivid-vision
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vivid-vision.png
 name: Vivid Vision
-description: Vivid Vision is a company surfaced as a portfolio company of uncork-capital and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Vivid Vision is a digital vision care company that builds VR- and software-based
+  tools for diagnosing and treating binocular vision disorders. Its products include
+  a vision training system for amblyopia (lazy eye), strabismus, and convergence
+  insufficiency; Vivid Vision Perimetry (VVP), a VR-based visual field test used as
+  an endpoint in ophthalmology clinical trials for geographic atrophy, AMD, and
+  glaucoma; and EYEBAB VT therapeutic exercises for clinical settings. Founded in
+  2014, the platform has been used by more than 100,000 patients across 50+ countries
+  through eye-care practices and clinics. Vivid Vision is backed by Uncork Capital.
+  The company is a patient- and clinician-facing vision-care provider and does not
+  publish a public developer API, SDK, or webhook surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/vivid-vision/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +32,33 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Vision Care
+- Health
+- Virtual Reality
+- Ophthalmology
+- Vision Therapy
+- Clinical Trials
+- MedTech
 apis: []
+common:
+- type: DomainSecurity
+  url: security/vivid-vision-domain-security.yml
+- type: Conformance
+  url: conformance/vivid-vision-conformance.yml
+- type: Compliance
+  url: conformance/vivid-vision-conformance.yml
+- type: Website
+  url: https://www.seevividly.com/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1

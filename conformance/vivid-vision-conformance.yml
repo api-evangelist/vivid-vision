@@ -1,0 +1,33 @@
+generated: '2026-07-21'
+method: searched
+source: >-
+  Compliance claims published in the site-wide footer of www.seevividly.com
+  (HIPAA Seal of Compliance verification badge, CE Mark Registered Products with
+  named EC Representative). Vivid Vision publishes no public developer API, so
+  API-level conformance (oauth2, oidc, rfc9457, pagination, idempotency) is not
+  applicable and cannot be asserted.
+standards:
+  - id: hipaa
+    conforms: true
+    evidence: >-
+      "HIPAA Seal of Compliance" verification badge published in the site-wide
+      footer of www.seevividly.com, consistent with Vivid Vision's handling of
+      patient vision-care data through eye-care practices and clinics.
+  - id: ce-mark
+    conforms: true
+    evidence: >-
+      Footer states "CE Mark Registered Products" and names an EC Representative
+      (Advena Ltd, Tower Business Centre, Tower Street, Swatar, BKR 4013, Malta),
+      indicating CE-marked medical-device products for the EU market.
+  - id: oauth2
+    conforms: false
+    evidence: No public API or documented OAuth 2.0 authorization surface.
+  - id: oidc
+    conforms: false
+    evidence: No /.well-known/openid-configuration on www.seevividly.com (404); no OIDC discovery.
+  - id: rfc9457
+    conforms: false
+    evidence: No public API; no documented problem+json error surface.
+  - id: fhir
+    conforms: false
+    evidence: No published FHIR endpoint or health-data interoperability API.
