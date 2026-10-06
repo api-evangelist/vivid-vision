@@ -43,7 +43,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-10-06'
 tags:
 - Company
 - Vision Care
@@ -55,6 +55,8 @@ tags:
 - MedTech
 apis: []
 common:
+- url: https://www.seevividly.com/blog
+  type: Blog
 - type: DomainSecurity
   url: security/vivid-vision-domain-security.yml
 - type: Conformance
